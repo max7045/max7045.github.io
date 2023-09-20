@@ -7,7 +7,7 @@ body{
     
 }
 .header{
-    background-color:lightblue;
+    background-color: cornflowerblue;
     width: 100%;
     text-align: left;
     position:  fixed;
@@ -53,8 +53,21 @@ body{
     font-size: 1.2rem;    
 }
 
+.quote-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.right-side-image{
+    float: right;
+    height: auto;
+    max-width: 20%;
+}
+
 .quote{
     font-weight: bold;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
