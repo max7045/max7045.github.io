@@ -66,6 +66,12 @@ body{
     max-width: 20%;
 }
 
+.left-side-image{
+    float: left;
+    height: auto;
+    max-width: 20%;
+}
+
 .quote{
     font-weight: bold;
     font-style: italic;
