@@ -27,7 +27,7 @@ body{
     position: absolute;
     top: 10%;
     z-index: -5;
-    margin: 0 15% 5% 15%;
+    margin: 0 15% 10% 15%;
     padding: 2%;
     background-color: white;
     height:  300%;
@@ -77,4 +77,32 @@ body{
     font-style: italic;
     font-size: 1.3rem;
     margin: 0 1% 0 1%;
+}
+
+.ararticle-end{
+    padding-bottom:10%;
+}
+
+.sources{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sources a{
+    display: block;
+    padding: 1%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.image-container img{
+    display: block;
+    max-width: 80%;
+    height: auto;
 }
